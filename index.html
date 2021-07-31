@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=New Tegomin|Abril Fatface' rel='stylesheet'>
+    <title>My Sticky Notes HTML 
+    </title>
+</head>
+<body>
+    <div class="main">
+        <div class="one">
+            <h1>Sticky Notes</h1>
+            <button onclick="addnote()" class="button">Create Note</button>
+            <button class="save">Save</button><button class="cancel">Delete<span class="last">Double Click on the note to Delete your note</span></button>
+        </div>
+        <hr>
+        <div class="two">
+            <form>
+                <textarea id="text" placeholder="Write your note..."></textarea>
+            </form>
+        </div>
+        <div class="three"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

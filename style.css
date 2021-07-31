@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(45deg, #81ffbc, #4db37b);
+  font-family: Arial;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  font-family: "Abril Fatface";
+}
+.main {
+  width: 90%;
+  margin: 10px auto;
+}
+.button {
+  color: white;
+  background: linear-gradient(to top, #510fbb, #bd00ff);
+  width: 100px;
+  height: 50px;
+  margin: 0% 0% 0% 47%;
+  border: 1px outset;
+  border-radius: 25px;
+  box-shadow: 0px 10px 10px 0px rgb(0, 0, 0.5);
+  font-family: sans-serif;
+}
+.two {
+  display: none;
+  position: absolute;
+  margin: 0% 0% 0% 0%;
+}
+.three {
+  position: absolute;
+  top: 18%;
+  font-family: "New Tegomin";
+  margin: 0% 0% 0% 45%;
+}
+textarea {
+  background-color: rgb(255, 255, 143);
+  margin: 1%;
+  box-shadow: 10px 10px 10px 0px rgb(0, 0, 0.5);
+  border: none;
+  outline: none;
+  width: 700px;
+  height: 45px;
+  padding: 5% 5% 5% 5%;
+  margin-top: 1px;
+}
+button:hover {
+  color: black;
+  background: rgb(255, 235, 205);
+  cursor: pointer;
+}
+.save {
+  color: white;
+  background: linear-gradient(to right, #00b2ff, #0066ff);
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 70px;
+  height: 35px;
+  border: 1px outset;
+  border-radius: 50px 25px;
+  box-shadow: 0px 10px 10px 0px rgb(0, 0, 0.5);
+}
+.cancel {
+  color: white;
+  background: linear-gradient(to left, #00b2ff, #0066ff);
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  width: 70px;
+  height: 35px;
+  border: 1px outset;
+  border-radius: 25px 50px;
+  box-shadow: 0px 10px 10px 0px rgb(0, 0, 0.5);
+  display: inline-block;
+}
+.cancel .last {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the hover */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  margin-top: 20px;
+}
+.cancel:hover .last {
+  visibility: visible;
+}
